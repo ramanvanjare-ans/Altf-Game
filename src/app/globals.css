@@ -1,0 +1,202 @@
+/* ================================
+   Tailwind base
+================================ */
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"]));
+
+/* ================================
+   App defaults
+================================ */
+html,
+body {
+  height: 100%;
+  font-family: var(--font-secondary);
+  background-color: var(--background);
+  color: var(--foreground);
+  /* overflow: hidden; */
+}
+
+/* ================================
+   Theme + Fonts
+================================ */
+:root {
+  /* Fonts */
+  --font-primary: "Bricolage Grotesque", sans-serif;
+  --font-secondary: "DM Sans", sans-serif;
+
+  /* Colors — Light */
+  --background: #ffffff;
+  --foreground: #111827;
+
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --secondary: #9ba2ae;
+  --secondary-foreground: #ffffff;
+
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+
+  --border: #e5e7eb;
+  --card: #f1f5f9;
+
+
+  --card-foreground: #111827;
+}
+
+[data-theme="dark"] {
+  /* Colors — Dark */
+  --background: #0b0b0b;
+  --foreground: #f1f5f9;
+
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+
+  --secondary: #9ba2ae;
+  --secondary-foreground: #ffffff;
+
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+
+  --border: #2a2a2e;
+  --card: #111114;
+
+
+  --card-foreground: #ffffff;
+}
+
+/* ================================
+   Typography Roles 
+================================ */
+@layer base {
+  .heading {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: 900;
+    font-family: var(--font-primary);
+    color: var(--primary);
+    line-height: 1.2;
+  }
+
+  .subheading {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    font-weight: 600;
+    font-family: var(--font-primary);
+    color: var(--foreground);
+  }
+
+  .description {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-family: var(--font-secondary);
+    color: var(--muted-foreground);
+    line-height: 1.6;
+  }
+}
+
+@layer components{
+  .section-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+}
+
+/* ================================
+   Layout utilities (safe)
+================================ */
+@layer utilities {
+  .content {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+  }
+
+  .font-primary {
+    font-family: var(--font-primary);
+  }
+
+  .font-secondary {
+    font-family: var(--font-secondary);
+  }
+
+   @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .text-gradient-hero {
+    background: linear-gradient(
+      120deg,
+      var(--primary),
+      #06b6d4,
+      var(--primary)
+    );
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* ================================
+   UX utilities
+================================ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+/* Shine Animation for Buttons/Cards */
+@keyframes shine {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shine {
+  animation: shine 1.5s infinite;
+}
+
+@keyframes myntra-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-myntra-scroll {
+  animation: myntra-scroll 25s linear infinite;
+}
+
+@layer utilities {
+  @keyframes float-slow {
+    0% { transform: translateY(0px) translateX(0px); }
+    50% { transform: translateY(-60px) translateX(30px); }
+    100% { transform: translateY(0px) translateX(0px); }
+  }
+
+  .animate-float-slow {
+    animation: float-slow 20s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+  0%,100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+.animate-pulse-soft {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+}
+

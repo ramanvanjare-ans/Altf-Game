@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "name": "PDF Converter",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://webtechdaily.com/wp-content/uploads/2025/12/jpg-to-pdf-converter-online-3.png",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Image Compressor",
+    "subtitle": "Reduce image size",
+    "description": "Compress images without losing quality. Perfect for websites, blogs, and social media.",
+    "image": "https://res.cloudinary.com/cloudinary-marketing/images/c_scale,w_auto,dpr_auto/f_auto,q_auto/v1742926113/Compress_Image_cta/Compress_Image_cta.png?_i=AA",
+    "icon": "🖼️",
+    "whatYouGet": [
+      "High-quality compression",
+      "Supports JPG, PNG, WebP",
+      "Instant preview",
+      "SEO-friendly images"
+    ],
+    "steps": [
+      "Upload your image",
+      "Adjust compression level",
+      "Download optimized image"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "URL Shortener",
+    "subtitle": "Short links, big impact",
+    "description": "Create clean and trackable short links for marketing and advertisements.",
+    "image": "https://d3gribjq2zt3oj.cloudfront.net/blog-hub/wp-content/uploads/2025/04/hero_url-shortening_v2.png",
+    "icon": "🔗",
+    "whatYouGet": [
+      "Custom short URLs",
+      "Click tracking",
+      "Fast redirection",
+      "Ad campaign friendly"
+    ],
+    "steps": [
+      "Paste long URL",
+      "Generate short link",
+      "Copy and share"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Color Picker",
+    "subtitle": "Pick perfect colors",
+    "description": "Select, copy, and manage HEX, RGB, and HSL colors for your designs instantly.",
+    "image": "https://pixlr.com/blog/wp-content/uploads/2025/12/choosing-rgb-cmyk-hex-codes-when-designing-online-pixlr-1.webp",
+    "icon": "🎨",
+    "whatYouGet": [
+      "HEX, RGB, HSL values",
+      "One-click copy",
+      "Designer friendly",
+      "Fast color detection",
+       "HEX, RGB, HSL values",
+      "One-click copy",
+      "Designer friendly",
+      "Fast color detection", "HEX, RGB, HSL values",
+      "One-click copy",
+      "Designer friendly",
+      "Fast color detection"
+    ],
+    "steps": [
+      "Pick a color",
+      "Copy color code",
+      "Use in your design", "HEX, RGB, HSL values",
+      "One-click copy",
+      "Designer friendly",
+      "Fast color detection", "HEX, RGB, HSL values",
+      "One-click copy",
+      "Designer friendly",
+      "Fast color detection"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "AI Tools Hub",
+    "subtitle": "Smart tools, faster work",
+    "description": "Access multiple AI-powered tools designed to boost productivity and simplify everyday tasks.",
+    "image": "https://scalestation.io/hs-fs/hubfs/Latest%20AI%20Tools%20of%20HubSpot%20and%20How%20They%20Can%20Boost%20Your%20Marketing%20Strategy.jpg?width=1920&height=1280&name=Latest%20AI%20Tools%20of%20HubSpot%20and%20How%20They%20Can%20Boost%20Your%20Marketing%20Strategy.jpg",
+    "icon": "🤖",
+    "whatYouGet": [
+      "AI-powered utilities",
+      "Fast processing",
+      "Simple interface",
+      "All-in-one platform"
+    ],
+    "steps": [
+      "Choose a tool",
+      "Provide input",
+      "Get instant results"
+    ]
+  },{
+    "id": 6,
+    "name": "Event Manager",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://cdn.prod.website-files.com/620b4dfc30add2618d5e13a5/64bac98f4cc80fc271265c67_AI%20in%20Event%20Management-%20A%20Game-Changer%20for%20Event%20Professionals.webp",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  },{
+    "id": 7,
+    "name": "Meme Generator",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://itmemes.com/images/s16000/blankfunnymemes-by-itmemes-766x1024.png",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  },{
+    "id": 8,
+    "name": "Text to Voice",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://www.clicksend.com/img/img-voice_header.webp",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  },{
+    "id": 9,
+    "name": "Shadow Generator",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://images.insmind.com/market-operations/market/side/9c02a66cf006435fa4ed5d6d7943dd89/1724921016845.png?x-oss-process=image/resize,w_1120,h_746,type_6/interlace,1,image/format,webp",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  }
+  ,{
+    "id": 10,
+    "name": "Caption Generator",
+    "subtitle": "Convert files instantly",
+    "description": "Convert PDF files into Word, Excel, PowerPoint, or images with high accuracy and fast processing.",
+    "image": "https://www.vmaker.com/assets/img/free-ai-subtitle-generator.webp",
+    "icon": "📄",
+    "whatYouGet": [
+      "Multiple format support",
+      "Fast & secure conversion",
+      "No quality loss",
+      "Works on all devices"
+    ],
+    "steps": [
+      "Upload your PDF file",
+      "Select output format",
+      "Download converted file"
+    ]
+  }
+]
+
+
+
