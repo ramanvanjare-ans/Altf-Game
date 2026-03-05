@@ -12,7 +12,7 @@ export default function HillClimbRacing() {
       <iframe
         id="iframehtml5"
         title="Hill Climb Racing"
-        src="https://templerun-2.io//hill-climb-racing.embed"
+        src="https://azgames.io/hill-climb-race.embed"
         allow="autoplay; fullscreen; accelerometer; gyroscope; magnetometer"
         allowFullScreen
         scrolling="no"
