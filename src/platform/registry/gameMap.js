@@ -399,4 +399,16 @@ export const gameMap = {
     color: "from-green-500 to-emerald-700",
     icon: "Car",
   },
+  eightBallPool: {
+    name: "8 Ball Pool",
+    description:
+      "Challenge your aim and sink every ball in this classic 8 Ball Pool game. Line up perfect shots, control the cue, and defeat your opponent!",
+    image: "/games/cover_8ball_pool.png",
+    category: "Sports",
+    componentPath: "@/games/eightBallPool/Game",
+    rating: 4.4,
+    size: "large",
+    color: "from-emerald-500 to-green-700",
+    icon: "Circle",
+  },
 };

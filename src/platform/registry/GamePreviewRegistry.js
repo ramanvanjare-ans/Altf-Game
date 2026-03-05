@@ -57,5 +57,7 @@ export const GamePreviewRegistry = {
     
     "ragdoll": loadGame(() => import("@/games/ragdollGame/Game")),
     "hillclimbracing": loadGame(() => import("@/games/hillClimbRacing/Game")),
+
+    "eightBallPool": loadGame(() => import("@/games/eightBallPool/Game")),
     // Note: Add new games here as they are implemented
 };
