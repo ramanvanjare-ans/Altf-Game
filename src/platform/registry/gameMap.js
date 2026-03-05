@@ -387,4 +387,16 @@ export const gameMap = {
     color: "from-pink-500 to-rose-700",
     icon: "Activity",
   },
+  hillClimbRacing: {
+    name: "Hill Climb Racing",
+    description:
+      "Drive through challenging hills, collect coins, and upgrade your vehicle in Hill Climb Racing — a fun physics-based driving adventure!",
+    image: "/games/cover_hill_climb_racing.png",
+    category: "Racing",
+    componentPath: "@/games/hillClimbRacing/Game",
+    rating: 4.5,
+    size: "large",
+    color: "from-green-500 to-emerald-700",
+    icon: "Car",
+  },
 };
